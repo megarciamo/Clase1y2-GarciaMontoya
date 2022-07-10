@@ -11,7 +11,16 @@
   <body>
     <h1>Ferretería el Punto</h1>
 
-    <h2 id="total">El valor de su compra es: 0</h2>
+    <form id="formulario-usuario">
+      <label for="user">Ingrese nombre de usuario para mostrar sus compras pendientes</label>
+      <input id="user" type="text" placeholder="Nombre">
+      <input type="submit" value="Buscar">
+    </form>
+
+    <div id="CP"></div>
+    <ul id="ComprasPendientes"></ul>
+
+   
     <div id="contenedor-productos"></div>    
   </body>
 </html>
